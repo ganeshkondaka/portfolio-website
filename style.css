@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: white;
+    font-family:'jost';
+    background-color: rgb(27 27 27);
+}
+
+
+.container-fluid{
+    background-color:transparent;
+    color: white;
+}
+
+.navbar-brand{
+    margin-left: 50px;
+}
+#io{
+    color: #ffee27;
+}
+
+.navbar>.container-xl, .navbar>.container-xxl{
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+.nav-link{
+    
+    margin: 0 15px;
+    display: flex;
+    justify-content: space-around;
+    width: 70px;
+    color: rgb(255, 255, 255);
+    border-radius: 2px;
+    
+}
+
+.nav-link:hover{
+    /* border-top: 1px solid rgb(255, 228, 96); */
+    border-bottom: 1px solid rgb(27, 86, 236);
+}
+/* .navbar{
+    height: 80px; 
+    padding: 0px 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: 100%;
+    /* background-color: rgb(5 0 77); */
+    /* background: linear-gradient(to bottom right, rgb(0, 6, 97) 0%, rgb(0, 0, 0) 100%); */
+    /* box-shadow: 1px 1px 20px 1px black;
+    
+} */
+/* 
+
+
+li{
+    list-style: none;
+}
+.navright ul{
+    display: flex;
+    justify-content: space-around;
+}
+.navleft p{
+    font-size: 30px;
+
+}
+#o{
+    color: rgb(255, 148, 61) ;
+}
+.navright ul li{
+    margin: 0px 20px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 80px;
+}
+.navright ul li:hover{
+    border-bottom: 1px solid rgb(255, 255, 255);
+    /* border-top: 1px solid rgb(163, 163, 163); 
+} */ 
+.sec2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column-reverse;
+    align-items: center;
+    
+    padding:9% 0%;
+}
+.mydata{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    padding-left: 10px;
+}
+.mydata p{
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 5px;
+    margin-bottom: 0px;
+}
+.name {
+    /* color: rgb(60, 85, 247); */
+    background: linear-gradient(to right, rgb(247, 166, 60) 0%, rgb(205, 92, 0) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+    font-weight:900;
+    font-weight:bolder;
+     /* text-shadow: -4px -1px 1px rgb(255, 255, 255); */
+}
+
+#smallp{
+    font-size: 26px;
+    font-weight: 100;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+
+
+#b1,#b2{
+    font-size: 15px;
+    font-family: 'jost';
+}
+#b1{
+    margin-top: 50px;
+    height: 50px;
+    width: 130px;
+    color: white;
+    background: linear-gradient(to bottom right, rgb(4, 150, 255) 24%, rgb(88, 9, 125) 94%);
+    border-radius: 10px;
+    border: none;
+}
+#b1:hover{
+    background: rgb(64, 93, 223);
+}
+#b2{
+    margin-top: 50px;
+    margin-left: 10px;
+    height: 50px;
+    width: 130px;
+    color: white;
+    background: transparent;
+    border: 1px solid rgb(255, 226, 4);
+    border-radius: 10px;
+}
+#b2:hover{
+    background-color: rgb(40, 40, 40);
+}
+
+.logo img{
+    width: 200px;
+    border-radius: 100px;
+}
+
+
+.skill{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.certificates{
+    padding: 8%;
+}
+.cert-images{
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.cert-images div{
+    display: inline-block;
+    width: 280px;
+    height: 300px;
+    margin: opx 50px;    
+}
+.cert-images img{
+    height: 200px;
+    display: inline;
+    margin: auto;
+    border-radius: 5px;
+    background: white;
+    opacity: 0.9;
+    box-shadow: 1px 1px 6px 1px black; 
+}
+.cert-images img:hover{
+    opacity: 1 ;
+    transform: scale(1.01);
+    background-color: linear-gradient(rgba(0, 0, 255, 0.2), rgba(0, 0, 255, 0.2));
+}
+
+.cert-images button{
+    margin-left: 70px;  
+    margin-top: 10px;
+    border: transparent;
+    color: rgb(255, 255, 255);
+    background-color:transparent;
+    width: 100px;
+    height: 40px;
+    
+    font-family:"jost", cursive;
+    box-shadow: 1px 1px 10px 1px black;  
+}
+.cert-images button:hover{
+    background-color:transparent;
+    border-left: 1px solid rgb(91, 91, 91);
+    border-right: 1px solid rgb(91, 91, 91);
+    /* border-radius: 5px; */
+    background-color: rgb(38, 37, 37);
+}
+
+
+
+
+.secc3{
+    background-color: #252525;
+}
+
+.container {
+    padding: 100px 0;
+    width: 80%;
+    margin: 0 auto;
+   
+  }
+  
+  h1 {
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .skill {
+    margin: 10px 0;
+    width: 100%;
+  }
+  
+  .container p {
+    color:rgb(255, 199, 94);
+    display: inline;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .progress {
+   
+    font-size: 10px;
+    width: 200px;
+    height: 13px;
+    background-color: #454545;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .bar {
+ 
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    text-align: right;
+    padding: 0 5px;
+    line-height: 20px;
+  }
+  
+
+  .project-sec {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    flex-direction: column;
+
+}
+
+.project {
+    border: 1px solid #3a3a3a;
+    padding: 18px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    align-items: center
+    
+}
+
+a i{
+    font-size: 20px;
+    color: rgb(169, 206, 255);
+}
+a i:hover{
+    color: rgb(139, 139, 139);
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 10px;
+    width: 250px;
+}
+
+.description {
+    flex: 1;
+}
+
+.description h2 {
+    margin-top: 0;
+}
+
+.description p {
+    margin-bottom: 0;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .project {
+        flex-direction: column;
+    }
+    
+    .project img {
+        margin-right: 0;
+        margin-bottom: 10px;
+        border-radius: 10px;
+    }
+}
+
+.sec4{
+    height: 300px;
+    background-color: #252525;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.social-media{
+    margin: 20px 0;
+}
+
+.social-media i{
+    padding: 0 10px;
+}
+
+.license{
+
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
